@@ -1,10 +1,9 @@
 # Options-Page-ACF
 add menu options page for ACF
 
-copy this code snippet below and paste
+> copy this code snippet below and paste
 
-<?php
-// register a top-level options page
+//* register a top-level options page *//
 if ( function_exists( 'acf_add_options_page' ) ) {
 	acf_add_options_page( [
 		'page_title' => 'Themes Editor',
